@@ -10,6 +10,9 @@ I designed a sleek and contemporary to-do list utilizing **HTML, CSS, and JavaSc
 
 To ensure that the HTML file loads correctly and to facilitate ease of editing, it is imperative to **use a Web Server**, such as the one available in VSCode, as **opposed to simply opening the file in Chrome**, as the latter may result in incorrect loading and cause unnecessary difficulties during the editing process.
 
+## Known issue:
+In the screenshot above, you may notice that the Delete button is not displaying correctly on Desktop, whereas it appears fine on Mobile. If anyone would like to address the bug and submit a pull request, please feel free to do so.
+
 ## Features:
 
 -   Easy-to-use interface
