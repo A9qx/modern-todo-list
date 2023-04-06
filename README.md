@@ -6,6 +6,8 @@ I designed a sleek and contemporary to-do list utilizing **HTML, CSS, and JavaSc
 
 ## How to Use:
 
+<img src="https://i.imgur.com/2NbEClv.png"  width="60%" height="20%">
+
 To ensure that the HTML file loads correctly and to facilitate ease of editing, it is imperative to **use a Web Server**, such as the one available in VSCode, as **opposed to simply opening the file in Chrome**, as the latter may result in incorrect loading and cause unnecessary difficulties during the editing process.
 
 ## Features:
