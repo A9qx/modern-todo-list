@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #F5F3C1, #27E1C1, #0EA293, #2F0F5D);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button[type="submit"] {
+  background-color: #1e90ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #007fff;
+}
+
+.tasks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.checkbox {
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+}
+
+.checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox label:before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  position: relative;
+  top: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.checkbox input[type="checkbox"]:checked + label:before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #1e90ff;
+  border-radius: 50%;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.delete-button {
+  background-color: #e73c7e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
+  margin-left: 10px;
+}
+
+.delete-button:hover {
+    background-color: #c71f66;
+}
+
+@keyframes gradient {
+0% {
+background-position: 0% 50%;
+}
+50% {
+background-position: 100% 50%;
+}
+100% {
+background-position: 0% 50%;
+}
+}
