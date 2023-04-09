@@ -5,9 +5,9 @@
 }
 
 body {
-  background: linear-gradient(to right, #F5F3C1, #27E1C1, #0EA293, #2F0F5D);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  background: linear-gradient(to bottom right, #00d2ff, #3a7bd5, #7742B2, #CC0099, #FDB813);
+  background-size: 700% 700%;
+  animation: gradient 10s ease infinite;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
 }
@@ -129,13 +129,13 @@ button[type="submit"]:hover {
 }
 
 @keyframes gradient {
-0% {
-background-position: 0% 50%;
-}
-50% {
-background-position: 100% 50%;
-}
-100% {
-background-position: 0% 50%;
-}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
